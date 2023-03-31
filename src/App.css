@@ -1,38 +1,286 @@
-.App {
+p {
+  font-weight: 400;
+}
+
+li {
+  font-weight: 400;
+}
+
+
+.logox {
+  width: 7%;
+  position: relative;
+  left: 20px;
+  top: 30px;
+  
+}
+
+.header {
+  background-color:beige ;
+  height: auto;
+}
+
+.logo2 {
+  width: 20%;
+  position: relative;
+  left: 70%;
+  bottom: 75px;
+}
+
+.right-align {
+  float: right;
   text-align: center;
+  position: relative;
+  right: 550px;
+  bottom: 70px;
+  margin: 16px;
+  border-bottom: 5px black;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form {
+  position: relative;
+  height: 200%;
+  left: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.area {
+  width: 400px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Signup */
+
+.signupheading1 {
+  color: red;
+
+  background-color: honeydew;
 }
 
-.App-link {
-  color: #61dafb;
+#dropdown1 {
+  width: 335px;
+  position: relative;
+  left: 8px;
+  height: 38px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#scheme {
+  text-align: left;
 }
+
+.span1 {
+  color: cadetblue;
+  font-weight: 600;
+
+}
+
+.signup-heading {  
+  padding-top: 40px;
+  width: 70%;
+  position: relative;
+  left: 200px;
+  border: 1px black;
+  background-color: gray;
+
+}
+
+.formelements1 {
+  font-weight: 500;
+  float: left;
+
+}
+
+.instruction {
+  color: red;
+}
+
+.formelements2 {
+  float: right;
+  font-weight: 500;
+  position: relative;
+  right: 30px;
+}
+
+.btn {
+  position: relative;
+  right: 40px;
+}
+
+
+/* HOME PAGE*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* top-header */
+#top-header {
+  background-color: darkgrey;
+  padding: 10px;
+  height: 100px;
+}
+
+.govt-india {
+  width: 170px;
+  float: left;
+}
+
+
+.govt-india1 {
+  float: inline-start;
+  width: 80%;
+  position: relative;
+  left: 100px;
+}
+
+/* FOOTER */
+.page-footer {
+  height: 300px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.footer-img1 {
+  width: 8%;
+  position: relative;
+  float: left;
+  top: 50px;
+  left: 470px;
+
+}
+.footer-img2 {
+  width: 8%;
+  height: 80px;
+  position: relative;
+  float: right;
+  top: 50px;
+  right: 470px;
+
+}
+
+.login-page {
+  float: right;
+  margin-bottom: 0;
+  position: relative;
+  right: 30px;
+  bottom: 60px;
+}
+
+/* header */
+#header {
+  height: 170px;
+  margin-top: 0;
+
+}
+
+.logo {
+  width: 6%;
+  position: relative;
+  float: left;
+  margin: 10px;
+  left: 10px;
+  top: 10px;
+}
+
+.header-content {
+
+  float: inline-start;
+  width: 90%;
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
+
+.heading-block {
+  float: right;
+  position: relative;
+  right: 350px;
+  top: 8px;
+}
+
+.heading {
+  line-height: 0;
+  color: blue;
+  position: relative;
+  left: 90px;
+  bottom: 10px;
+}
+
+.color {
+  color: red;
+  position: relative;
+  left: 130px;
+}
+
+.logo1 {
+  width: 186px;
+  float: right;
+  position: relative;
+  left: 39%;
+  bottom: 23px;
+}
+
+/* slideshow */
+
+.img1 {
+  width: 100%;
+}
+
+/* INFORMATION */
+
+.info-main {
+  background-color: khaki;
+  height: 100px;
+ 
+}
+.info {
+  margin:10px 100px 10px 200px;
+  padding-top: 30px; 
+  padding-bottom: 0px;
+}
+.info-part {
+  position: relative;
+  left: auto;
+}
+
+/* cards */
+
+#card {
+  width: 100%;
+  background-color: cadetblue;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.card-title {
+  text-align: center;
+  /* position: relative;
+  top: 20px;
+  top: 10px; */
+  border: 1px solid;
+  padding-bottom: 5px;
+  
+}
+
+
+
+.info-logo {
+  background-color: white;
+  width: 20px;
+  position: relative;
+  top: 2px;
+  left: 5px;
+}
+
+ .card1 {
+  display: inline-block;
+  width: 20%;
+  border: 1px solid;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+} 
