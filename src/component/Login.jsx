@@ -11,8 +11,9 @@ const Login = () => {
     })
     const handleChange=(e)=>{
         const {value,name} = e.target;
-        setdata({...data,[name]:value});
+        (setdata({...data,[name]:value}));
     }
+
 
     const validateButton = () => {
         if (data.password !== "" && data.applicationId !== "") {
