@@ -13,7 +13,6 @@ const Login = () => {
     const { value, name } = e.target;
     setdata({ ...data, [name]: value });
   };
-
   const validateButton = () => {
     if (data.password !== "" && data.applicationId !== "") {
     axios.post('http://127.0.0.1:3001/login',data)
