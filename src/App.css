@@ -284,3 +284,10 @@ body {
   /* padding-left: 10px; */
   /* padding-right: 10px; */
 } 
+
+/* view button */
+
+#viewBtn {
+  position: relative;
+  right: 60px;
+}

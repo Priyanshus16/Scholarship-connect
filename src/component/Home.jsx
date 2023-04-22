@@ -1,10 +1,13 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+
+    
     return (
         <>
             {/* <!-- top-header --> */}
-{/* 
+            {/* 
             <div id="top-header">
                 <div className="govt-india my-2">
                     <h6>भारत सरकार<br />
@@ -33,14 +36,14 @@ const Home = () => {
                     </div>
 
                     <div className="heading-block">
-                        <h4 className="heading" style={{marginLeft:'60px'}}>Scholar Connect</h4>
+                        <h4 className="heading" style={{ marginLeft: '60px' }}>Scholar Connect</h4>
                         <h6 className="heading-content">Ministry of Electronics & Information Technology, Government of India<br />
                             <span className="color">(For Academic Year 2022-23)</span>
                         </h6>
                     </div>
                     <img className="logo1"
                         src="https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Digital_India_logo.svg/1200px-Digital_India_logo.svg.png"
-                        alt="logo"/>
+                        alt="logo" />
                 </div>
             </div>
 
@@ -52,7 +55,9 @@ const Home = () => {
                         from 8 AM to 8 PM on all days, excluding holidays</span> </h6>
             </div>
 
-            <img className="img1" src="https://scholarships.gov.in/public/Content/img/pariksha_pe_charcha_eng.jpg" alt="" />
+            {/* carousal */}
+
+            <img src="" alt="" />
 
 
 
@@ -139,6 +144,7 @@ const Home = () => {
                             <td>Closed on 15-11-2022</td>
                             <td>Closed on 30-11-2022</td>
                             <td><button className="btn btn-success ">Apply</button></td>
+                            <td><button className="btn btn-success " id="viewBtn">View</button></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -146,6 +152,7 @@ const Home = () => {
                             <td>Closed on 30-11-2022</td>
                             <td>Closed on 31-12-2022</td>
                             <td><button className="btn btn-success ">Apply</button></td>
+                            <td><button className="btn btn-success " id="viewBtn">View</button></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -153,6 +160,7 @@ const Home = () => {
                             <td>Closed on 30-11-2022</td>
                             <td>Closed on 31-12-2022</td>
                             <td><button className="btn btn-success ">Apply</button></td>
+                            <td><button className="btn btn-success " id="viewBtn">View</button></td>
                         </tr>
 
                         <tr>
@@ -161,6 +169,7 @@ const Home = () => {
                             <td>Closed on 15-11-2022</td>
                             <td>Closed on 30-11-2022</td>
                             <td><button className="btn btn-success ">Apply</button></td>
+                            <td><button className="btn btn-success " id="viewBtn">View</button></td>
                         </tr>
 
                     </tbody>
@@ -188,6 +197,7 @@ const Home = () => {
                             <td>Closed on 15-11-2022</td>
                             <td>Closed on 30-11-2022</td>
                             <td><button className="btn btn-success ">Apply</button></td>
+                            <td><button className="btn btn-success " id="viewBtn">View</button></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -195,6 +205,7 @@ const Home = () => {
                             <td>Closed on 30-11-2022</td>
                             <td>Closed on 31-12-2022</td>
                             <td><button className="btn btn-success ">Apply</button></td>
+                            <td><button className="btn btn-success " id="viewBtn">View</button></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -202,6 +213,7 @@ const Home = () => {
                             <td>Closed on 30-11-2022</td>
                             <td>Closed on 31-12-2022</td>
                             <td><button className="btn btn-success ">Apply</button></td>
+                            <td><button className="btn btn-success " id="viewBtn">View</button></td>
                         </tr>
 
                     </tbody>
@@ -228,6 +240,7 @@ const Home = () => {
                             <td>Closed on 15-11-2022</td>
                             <td>Closed on 30-11-2022</td>
                             <td><button className="btn btn-success">Apply</button></td>
+                            <td><button className="btn btn-success " id="viewBtn">View</button></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -235,6 +248,7 @@ const Home = () => {
                             <td>Closed on 30-11-2022</td>
                             <td>Closed on 31-12-2022</td>
                             <td><button className="btn btn-success ">Apply</button></td>
+                            <td><button className="btn btn-success " id="viewBtn">View</button></td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
@@ -242,6 +256,7 @@ const Home = () => {
                             <td>Closed on 30-11-2022</td>
                             <td>Closed on 31-12-2022</td>
                             <td><button className="btn btn-success ">Apply</button></td>
+                            <td><button className="btn btn-success " id="viewBtn">View</button></td>
                         </tr>
 
                         <tr>
@@ -250,6 +265,7 @@ const Home = () => {
                             <td>Closed on 30-11-2022</td>
                             <td>Closed on 31-12-2022</td>
                             <td><button className="btn btn-success ">Apply</button></td>
+                            <td><button className="btn btn-success " id="viewBtn">View</button></td>
                         </tr>
 
                     </tbody>
@@ -275,7 +291,7 @@ const Home = () => {
 
                         <div className="col-md-6 mb-4">
 
-        
+
 
                         </div>
 
@@ -287,7 +303,7 @@ const Home = () => {
 
                 <h6 className="justify-content text-center">This site is designed, developed and hosted by Team Thunder ,
                     content provided by Scholar Connect.</h6>
-                    <p className="justify-content text-center my-3">Last Updated on 17th May 2022</p>
+                <p className="justify-content text-center my-3">Last Updated on 17th May 2022</p>
 
                 <div className="footer-copyright text-center py-3">© 2020 Copyright:
                     <img className="footer-img1" src="https://presentations.gov.in/wp-content/uploads/2020/06/2.png?x19336" alt="" />
